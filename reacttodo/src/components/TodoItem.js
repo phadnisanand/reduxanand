@@ -15,9 +15,9 @@ const TodoItem = (props) => {
   return (
     <div className={`todo ttt-${boolclass}`}>
        <label className="todo-label" >{props.text}</label>
-       { !props.isEditing &&
+      
         <button type="button" onClick={updateTodo}>Edit</button>
-       }
+      
         <button type="button" onClick={deleteTodo}>Delete</button>
     </div>
   );
