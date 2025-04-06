@@ -1,0 +1,6 @@
+https://github.com/reduxjs/redux/tree/master/examples
+https://redux.js.org/
+https://redux-toolkit.js.org/
+https://30dayscoding.com/blog/createstore-vs-configurestore 
+`createStore` is a function provided by the Redux library to create a new Redux store
+`configureStore` is a function provided by the `@reduxjs/toolkit` package
